@@ -1,0 +1,11 @@
+[project]
+name = "atomicwildfires"
+version = "1.0.0"
+description = "Satellite wildfire detections around nuclear sites in Russia and Ukraine, built from NASA FIRMS data"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pandas>=3.0.4",
+    "requests>=2.34.2",
+    "scikit-learn>=1.7",
+]
